@@ -1,0 +1,203 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+/* html , body , h1 , h2 , h3 , h4, ul ,li{
+    margin: 0;
+    padding: 0;
+}
+h1 img{
+    display: block;
+}
+a{
+    text-decoration: none;
+} */
+/* Limpia los divs si uno esta encima de otro */
+.nf{
+    clear: both;
+}
+/* Estilos generales */
+body{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+
+header{
+    width: 780px;
+    margin: 0 auto;
+}
+nav{
+
+}
+section{
+
+}
+article{
+
+}
+footer{
+    background: #42453d;
+    background-repeat: repeat-x;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Tahoma, Arial;
+    font-size: 10px;
+    font-weight: normal;
+    color: #fff;
+    padding: 5px;
+    letter-spacing: 2px;
+}
+    footer a{
+        border-bottom: dotted;
+        color: #fff;
+        text-decoration: none;
+    }
+
+/* Estilos para los Id's */ 
+
+#bgheader{
+    background-color: #4f4f4e;
+    background-repeat: repeat-x;
+    height: 203px;
+}
+    #logo{
+        padding: 46px 0 0 0;
+    }
+
+#navegacion{
+    width: 780px;
+}
+    #navegacion ul{
+        width: 750px;
+        list-style-type: none ;
+    }
+        #navegacion ul li{
+            float: left;
+        }
+
+#contenido{
+    margin: 0 auto;
+    width: 790px;
+    height: 920px;
+}
+    #banner{
+        width: 100%;
+        height: 260px;
+    }
+        #banner #foto{
+            float: left;
+        }
+#buscador{
+    width: 150px;
+    float: left;
+    padding: 18px 0 0 12px;
+}
+    #busador p{
+        font-family: Tahoma , Arial;
+        font-size: 10px;
+        font-weight: normal;
+        color: #565758;
+    }
+    #buscador input{
+        width: 139px;
+        height: 20px;
+        border: 1px solid #859d31;
+    }
+    #buscador a{
+        padding-top: 5px;
+        float: right;
+        padding-right: 8px;
+    }
+    
+#post-izq{
+    width: 408px;
+    height: 350px;
+    padding: 23px 0 0 0;
+    float: left;
+}
+    #post-izq h1, #post-izq h2{
+        font-family: "Myriad Pro", Arial;
+        font-size: 18px;
+        font-weight: normal;
+        color: #a5b95e;
+    }
+    #post-izq p{
+        font-family: Tahoma ,Arial;
+        font-size: 11px;
+        font-weight: normal;
+        color: #5c5c5c;
+        padding-top: 10px;
+        text-align: justify;
+    }  
+        #post-izq p span{
+            font-weight: bold;
+            word-spacing: 18px;
+        }
+    #post-izq a{
+        font-family: Tahoma,arial;
+        font-size: 10px;
+        font-weight: bold;
+        color: #aeaeaa;
+        text-decoration: none;
+        float: right;
+    }
+    #post-izq h2{
+        padding: 8px 0 3px 0;
+    }
+    #post-izq img{
+        float: left;
+        padding-right: 35px;
+    }
+    #post-izq ul{
+        float: left;
+        font-family: Tahoma, arial;
+        font-size: 10px;
+        font-weight: bold;
+        color: #5c5c5c;
+        width: 285px;
+        padding-left: 105px;
+        text-align: justify;
+    }
+    #post-izq ul li{
+        padding-bottom: 12px;
+        list-style: none;
+        padding-left: 20px;
+        background-position: 2px 2px;
+    }
+#post-der{
+    width: 335px;
+    float: right;
+    padding: 23px 0 0 0;
+}
+    #post-der h1{
+        font-family: "Myriad", arial;
+        font-size: 20px;
+        font-weight: normal;
+        color: #839837;
+        padding-bottom: 19px;
+    }
+#post-der p{
+    font-family: Tahoma,arial;
+    font-size: 11px;
+    font-weight: normal;
+    color: #5c5c5c;
+    width: 327px;
+
+}
+#post-der a{
+    float: right;
+    padding: 8px 25px 0 0;
+}
+#post-der h2{
+    padding-top: 35px;
+}
+#post-der ul{
+    list-style-type: none;
+    padding-top: 12px;
+    width: 320px;
+    height: 170px;
+}
+#post-der ul li{
+    display: inline-block;
+}
